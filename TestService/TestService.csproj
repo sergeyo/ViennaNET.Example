@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ViennaNET.Orm" Version="1.0.1.116" />
+    <PackageReference Include="ViennaNET.Orm.DefaultConfiguration" Version="1.0.1.116" />
+    <PackageReference Include="ViennaNET.WebApi.Runners.BaseKestrel" Version="1.0.1.116" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestApplication\TestApplication.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="conf\appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

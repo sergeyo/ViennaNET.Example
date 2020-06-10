@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SimpleInjector.Packaging" Version="4.10.2" />
+    <PackageReference Include="ViennaNET.Mediator.DefaultConfiguration" Version="1.0.1.116" />
+    <PackageReference Include="ViennaNET.Orm.Seedwork" Version="1.0.1.116" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestDomain\TestDomain.csproj" />
+  </ItemGroup>
+
+</Project>
